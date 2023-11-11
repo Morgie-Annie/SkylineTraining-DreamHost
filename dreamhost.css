@@ -1,0 +1,417 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+/*Main Header with Navigation Starts here */
+
+*{
+    font-family: calibri;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+}
+
+/* Mobile Menu CSS code starts here*/
+
+.menu-bar{
+    display: block;
+    position: absolute;
+    display: none;
+}
+
+/* Navigation/Menu Formatting starts here*/
+
+/* Menu Bar Check/Display CSS starts here*/
+
+#check{
+
+    display: none;
+}
+
+/* Menu Bar Check/Display CSS ends here*/
+
+.container{
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 100%;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.div, ul, li{
+    display: inline-block;
+    justify-content: space-around;
+    /* margin-right: 0px 15px; */
+}
+
+.nav{
+    width: 50%;
+}
+
+.nav ul li a{
+    color: aliceblue;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+/* Navigation/Menu Formatting ends here*/
+
+/* Mobile Menu bar CSS starts here*/
+
+.menu-bar{
+    float: right;
+    line-height: 80px;
+    /* display: none; */
+}
+
+/* Mobile Menu bar CSS ends here*/
+
+.nav span{
+    padding: 5px;
+    background-color: blueviolet;
+    font-size: 10px;
+    border-radius: 2px;
+}
+
+/*Registration CSS Starts Here*/
+
+.registration a{
+    color: aliceblue;
+    font-size: 17px;
+}
+
+
+.btn-login{
+    border: 2px solid rgb(218, 214, 214);
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.btn-login:hover{
+    background-color: rgb(237, 242, 246);
+    color: blue;
+}
+
+.btn-getstarted{
+    border: 2px solid rgba(35, 6, 150, 0.851);
+    padding: 10px 30px;
+    border-radius: 4px;
+    background-color: rgba(35, 6, 150, 0.851);
+}
+
+.btn-getstarted:hover{
+    background-color: blueviolet;
+    color: rgb(237, 235, 245);
+
+}
+/*Registration CSS Ends here*?
+
+/*The section part of the webpage starts here*/
+
+.textsection{
+    background-color: #1e1919;
+    margin:0 auto;
+    padding: 40px;
+    max-width: 100%;
+}
+
+.textsection-2{
+    color: #f1f1f1;
+    font-family: 'Molengo', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    max-width: 70%;
+    margin: 0px auto;
+    padding: 50px;
+}
+
+/* Join over 700 million registered users CSS starts here */
+
+.textsection h1{
+    font-size: 60px;
+    font-family: 'Molengo', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.textsection p{
+    font-size: 19px;
+    width: 100%;
+    font-family: 'Molengo', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.p1{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/* Join over 700 million registered users CSS ends here */
+
+/* Find a plan button CSS properties start here */
+
+.btn-plan a{
+    align-items: center;
+    padding: 30px 70px 30px 70px;
+    width: 60px;
+    background-color:dodgerblue;
+    font-family: 'Molengo', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #1e1919;
+}
+
+.btn-plan{
+    text-align: center;
+    margin:0 auto;
+    padding:40px;
+    font-weight: bold;
+}
+
+.btn-plan i:hover{
+    transform: scale(1.5);
+}
+
+/* Find a plan button CSS properties end here */
+
+
+.textsection img{
+    width: 100%;
+    padding: 40px;
+}
+.img{
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.menu-icon{
+    display: none;
+    width: 25px;
+    cursor: pointer;
+}
+
+.body{
+    align-items: center;
+}
+
+/* Textsection CSS ends here */
+
+/* Services Section CSS Starts here*/
+
+.services{
+    background-color: #1e1919;
+    width: 100%;
+    color:aliceblue;
+    display: flex;
+    font-family: 'Molengo', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.see h2{
+    font-family: 'Molengo', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    background-color: #1e1919;
+    font-size: 30px;
+}
+
+.services0{
+    width: 100%;
+    margin: 0px 30px;
+    padding: 20px;
+}
+
+/* HOW WILL YOU USE DROPBOX DESIGN STARTS HERE */
+
+.h1{
+    font-family: 'Molengo', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+}
+.middle_parent{
+    display: flex;
+    font-family: 'Molengo', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: aliceblue;
+    width: 100%;
+}
+.middle_flex h1{
+    font-family: 'Molengo', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.howwillyou_section{
+    width: 95%;
+    height: 95%;
+    align-items: center;
+    margin-left: -22px;
+}
+
+/* For Work CSS starts here*/
+
+.forwork_text{
+    background-color: #1e1919;
+    width: 80%;
+    margin-left: 60px;
+    text-align: left;
+}
+
+.forwork_text h1{
+    margin-left: 10px;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+.forwork_text p{
+    margin-left: 10px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+/* For Work CSS ends here*/
+
+/* For Personal use CSS starts here*/
+
+.forpersonaluse_text{
+    background-color: #1e1919;
+    width: 80%;
+    margin-left: 60px;
+    text-align: left;
+}
+
+.forpersonaluse_text h1{
+    margin-left: 10px;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+.forpersonaluse_text p{
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+/* For Personal use CSS ends here*/
+
+.button{
+    padding: 20px 60px;
+    border: none;
+}
+
+/* Mobile responsiveness definitions begin here. */
+
+@media screen and (max-width: 1392px) {
+
+    .nav ul li a{
+        color: aliceblue;
+        padding: 0px;
+    }
+}
+/* A different breakpoint here */
+
+@media screen and (max-width: 1302px) {
+
+    .nav ul li a{
+        color: aliceblue;
+        padding: 0px 0px;
+        margin-right: -5px;
+    }
+
+    .btn-login{
+        padding: 5px 7px;
+        border-radius: 4px;
+    }
+    
+    .btn-getstarted{
+        padding: 5px 7px;
+        border-radius: 4px;
+    }
+    
+}
+@media (min-width:500px) and (max-width:1192px){
+
+    .container{
+        flex-direction: column;
+        position: relative;
+        background-color: #1e1919;
+    }
+
+    .menu-bar{
+        display: block;
+        position: absolute;
+        top: 30%;
+        right: 50%;
+        color: aliceblue;
+        cursor: pointer;
+    }
+
+    .menu-bar i{
+        font-size: 40px;
+    }
+
+/* Mobile Menu bar CSS starts here*/
+
+    .menu-bar{
+        float: right;
+        line-height: 10px;
+    }
+
+    .nav, ul, li{
+        display: block;
+        padding-top: 15px;
+        margin-left: 10px;
+        /* margin-top: 5px; */
+    }
+
+    .logo img{
+        position: absolute;
+        top: 10px;
+        right: 50%;
+        left: 10%;
+        margin-top: 50px;
+    }
+
+    ul{
+        background-color: dodgerblue;
+        width: 80%;
+        position: absolute;
+        top: 100%;
+        height: 58vh;
+        right: 8%;
+        right: -100%;
+        text-align: left;
+        border-radius: 5px;
+        transition: 1.5s;
+    }
+
+    .registration{
+        margin-top: 50px 0;
+        position: absolute;
+        right: 10%;
+    }
+
+    .menu-icon{
+        display: block;
+        width: px;
+        color: #f1f1f1;
+    }
+
+    #check:checked ~ ul{
+        right: 6%;
+    }
+}

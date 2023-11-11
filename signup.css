@@ -1,309 +1,600 @@
-body{
-
-    background-color: rgb(23, 22, 22);
-    padding: 0;
-    margin: 0;
-    font-size: 20px;
-}
-
-.container-form{
-
-    width: 50%;
-    background-color: lightgray;
-    margin: auto;
+.container{
     text-align: center;
-    padding: 20px;
+    width: 80%;
+    background-color: dodgerblue;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 15px;
+    color: aliceblue;
+    height: 130vh;
 }
 
-.container-form p{
+/* CSS for Home button starts here */
 
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   padding-bottom: 40px;
-   
+.home-button{
+    font-size: larger;
+    cursor: pointer;
 }
 
-.container-form h1{
+.home-button:hover{
+    transform: scale(1.5);
+}
 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* CSS for Home button ends here */
+
+/* Create account CSS starts here */
+
+.container h1{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+
+}
+
+/* Create account CSS ends here */
+
+/* Sign up with social media CSS starts here */
+.container p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+
+}
+
+/* Sign up with social media CSS ends here */
+
+/* Social buttons CSS start here */
+
+.social{
+   margin: 50px;
+}
+
+.social a{
+    margin: 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
  }
 
-/* Username input CSS starts here */
+/* Facebook button CSS code Starts here */
 
-input[type=text]{
-
-    width: 50%;
-    padding: 15px;
-    border-radius: 25px;
-    border: 1px solid lightseagreen;
-    text-indent: 30px;
-}
-
-input[type=text]:focus{
-
-    border-radius: 25px;
-    border: 1px solid lightseagreen;
-    outline: none;
-
-}
-
-.user{
-
-    position: absolute;
-    top: 20%;
-    left: 25%;
-    font-size: 25px;
-
-}
-
-/* Username input CSS endss here */
-
-/* Email input CSS starts here */
-
-input[type=email]{
-
-    width: 50%;
-    padding: 15px;
-    border-radius: 25px;
-    border: 1px solid lightseagreen;
-    text-indent: 35px;
-}
-
-input[type=email]:focus{
-
-    border-radius: 25px;
-    border: 1px solid lightseagreen;
-    outline: none;
-   
-}
-
-.email-form{
-
-    position: absolute;
-    top: 20%;
-    left: 25%;
-    font-size: 25px;
-
-}
-
-.email{
-
-    position: relative;
-    margin-top: 25px;
-    
-}
-
-/* Email CSS ends here */
-
-/* Form-user CSS starts here */
-
-.form-user{
-
-    position: relative;
-   
-}
-
-/* Form-user CSS ends here */
-
-/* Password CSS starts here */
-
-input[type=password]{
-
-    width: 50%;
-    padding: 15px;
-    border-radius: 25px;
-    border: 1px solid lightseagreen;
-    text-indent: 10px;
-}
-
-input[type=text]:focus{
-
-    border-radius: 25px;
-    border: 1px solid lightseagreen;
-    outline: none;
-
-}
-
-.password{
-
-    margin-top: 25px;
-}
-
-/* Password CSS endss here */
-
-/* Mobile number CSS starts here */
-
-input[type=tel]{
-
-    width: 50%;
-    padding: 15px;
-    border-radius: 25px;
-    border: 1px solid lightseagreen;
-    text-indent: 30px;
-}
-
-input[type=tel]:focus{
-
-    border-radius: 25px;
-    border: 1px solid lightseagreen;
-    outline: none;
-
-}
-
-.user{
-
-    position: absolute;
-    top: 20%;
-    left: 25%;
-    font-size: 25px;
-
-}
-
-.form-class{
-
-    position: relative;
-    margin-top: 25px;
-    
-}
-
-/* Mobile number input CSS endss here */
-
-/* Register Button CSS starts here */
-
-input[type=submit]{
-
-    width: 53%;
-    padding: 15px;
-    border-radius: 25px;
-    margin-top: 40px;
-    background-color: green;
+ .social a:nth-child(1){
     color: aliceblue;
-    border: none;
+    background-color: #3b5998;
     font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 30px;
+ }
 
-}
+.facebook{
+    padding: 5px;
+ }
 
-.password{
+  /* Facebook button CSS code ends here */
 
-    margin-top: 25px;
-}
+ /* Twitter button CSS code starts here */
 
-/* register Button CSS ends here */
-
-
-/* Placeholder CSS starts here */
-
-::placeholder{
-
+ .social a:nth-child(2){
+    color: aliceblue;
+    background-color: #26A7de;
     font-size: 15px;
-    color: lightslategray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    padding: 10px 20px;
+    border-radius: 30px;
+ }
 
-/* Placeholder CSS ends here */
+ .twitter{
+    padding: 5px;
+ }
 
-.form-main{
+/* Twitter button CSS code ends here */
 
-    padding-bottom: 80px;
-}
+/* Google button CSS code starts here */
 
-/* Or divider CSS starts here */
+.social a:nth-child(3){
+    color: aliceblue;
+    background-color: #EA4335;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 30px;
+ }
+ .google{
+    padding: 5px;
+ }
 
-.divider{
+ /* Google button CSS code ends here */
 
+ /* Divider CSS code starts here */
+
+ .line{
     display: flex;
     align-items: center;
-    margin: 25px;
-}
+    margin: 30px;
+ }
 
-.divider::before, .divider::after{
-
+ .line::before, .line::after{
     content: "";
     padding: 1px;
-    background-color: rgb(105, 103, 103);
+    background-color: lightgray;
+    margin: 10px 30px;
     flex: 1;
-    margin: 20px 10px;
+ }
 
-}
-
-.divider-bg{
-
-    background-color: rgb(158, 157, 157);
+ .line-bg{
+    font-size: 20px;
+    background-color: dodgerblue;
     padding: 15px 15px;
-    border-radius: 50px;
-    border: 2px solid gray;
+    border-radius: 100%;
+ }
+
+/* Divider CSS code ends here */
+
+/* Email Input CSS code starts here */
+
+input[type="email"]{
+    width: 40%;
+    padding: 15px;
+    background-color: rgb(243, 240, 240);
+    border-radius: 25px;
+    border: 1px solid lightslategray;
+    text-indent: 20px;
 }
 
-/* Social Media Signup buttons CSS starts here */
+input[type="email"]:focus{
+    outline: none;
+    border: none;
+    color: gray;
+    font-size: 15px;
+}
+/* Email Input CSS code ends here */
 
-.facebook-button{
+/* Username Input CSS code starts here */
 
-    background-color: #3b5998;
-    color: aliceblue;
-    padding: 10px 50px;
-    border-radius: 20px;
-    text-decoration: none;
-    margin: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+input[type="text"]{
+    width: 40%;
+    padding: 15px;
+    background-color: rgb(243, 240, 240);
+    border-radius: 25px;
+    border: 1px solid lightslategray;
+    text-indent: 20px;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    border: none;
+    color: gray;
     font-size: 15px;
 }
 
-.twitter-button{
+/* Username Input CSS code ends here */
 
-    background-color: #1DA1F2;
-    color: aliceblue;
-    padding: 10px 50px;
-    border-radius: 20px;
-    text-decoration: none;
-    margin: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
+/* Telephone# CSS code starts here */
+
+input[type="tel"]{
+    width: 40%;
+    padding: 15px;
+    background-color: rgb(243, 240, 240);
+    border-radius: 25px;
+    border: 1px solid lightslategray;
+    text-indent: 20px;
 }
 
-.google-button{
-
-    background-color: #DB4437;
-    color: aliceblue;
-    padding: 10px 50px;
-    border-radius: 20px;
-    text-decoration: none;
-    margin: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+input[type="tel"]:focus{
+    outline: none;
+    border: none;
+    color: gray;
     font-size: 15px;
+
 }
 
-@media (max-width:816px){
+/* Telephone# CSS code ends here */
 
-    .container-form{
+/* Password CSS code starts here */
+
+input[type="password"]{
+    width: 40%;
+    padding: 15px;
+    background-color: rgb(243, 240, 240);
+    border-radius: 25px;
+    border: 1px solid lightslategray;
+    text-indent: 10px;
+
+}
+
+input[type="password"]:focus{
+    outline: none;
+    border: none;
+    color: gray;
+
+}
+
+/* password CSS code ends here */
+
+/* Button CSS code starts here */
+
+input[type="button"]{
+    width: 15%;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 15px;
+    background-color: #008000;
+    border-radius: 25px;
+    border: 1px #008000 solid;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+/* Button CSS code ends here */
+
+.form-class{
+    margin-top: 20px;
+    position: relative;
+}
+
+/* Icon alignment CSS Code stats here */
+
+.email{
+    position: absolute;
+    left: 30%;
+    color: dodgerblue;
+    top: 35%;
+}
+
+.mobile{
+    position: absolute;
+    left: 30%;
+    color: dodgerblue;
+    top: 35%;
+}
+
+.user{
+    position: absolute;
+    left: 30%;
+    color: dodgerblue;
+    top: 35%;
+}
+
+/* ::placeholder{
+
+    padding-left: 10px;
+    text-indent: 10px;
+
+} */
+
+
+@media only screen and (max-width:757px) {
+
+    .container{
         width: 100%;
     }
 
-    .facebook-button{
-        padding: 8px 40px;
-        margin: 0px 3px;
+    .social a{
+        margin: 20px;
+        text-decoration: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    input[type="email"]{
+        width: 60%;
+    }
+
+    input[type="text"]{
+        width: 60%;
+    }
+
+    input[type="user"]{
+        width: 60%;
+    }
+
+    input[type="tel"]{
+        width: 60%;
+    }
+
+    input[type="password"]{
+        width: 60%;
+    }
+
+    input[type="button"]{
+        width: 30%;
     }
     
-    .twitter-button{
-        padding: 8px 40px;
-        margin: 0px 3px;
+    .btn{
+        padding: 15px;
+        font-size: 13px;
+    }
+
+/* Create account CSS starts here */
+
+.container h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* Create account CSS ends here */
+
+/* Sign up with social media CSS starts here */
+.container p{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+/* Sign up with social media CSS ends here */
+
+/* CSS icon placement starts here */
+
+.email{
+    position: absolute;
+    left: 20%;
+}
+
+.mobile{
+    position: absolute;
+    left: 20%;
+}
+
+.user{
+    position: absolute;
+    left: 20%;
+}
+
+.social a{
+    margin: 15px;
+    
+}
+
+/* Facebook button CSS code Starts here */
+
+.social a:nth-child(1){
+    font-size: 13px;
+    padding: 5px 10px;
+}
+
+.facebook{
+    padding: 3px;
+}
+
+  /* Facebook button CSS code ends here */
+
+ /* Twitter button CSS code starts here */
+
+ .social a:nth-child(2){
+    font-size: 13px;
+    padding: 5px 10px;
+}
+
+ .twitter{
+    padding: 3px;
+}
+
+/* Twitter button CSS code ends here */
+
+/* Google button CSS code starts here */
+
+.social a:nth-child(3){
+    font-size: 13px;
+    padding: 5px 10px;
+}
+ .google{
+    padding: 3px;
+}
+
+ /* Google button CSS code ends here */
+
+}
+
+@media only screen and (max-width:611px) {
+
+    .container{
+        width: 100%;
+
+    }
+
+    .social a{
+        margin: 10px;
+
+    }
+    input[type="email"]{
+        width: 50%;
+    }
+
+    input[type="text"]{
+        width: 50%;
     }
     
-    .google-button{
-        padding: 8px 40px;
-        margin: 0px 3px;
+    input[type="user"]{
+        width: 50%;
     }
 
-    .container-form p{
+    input[type="tel"]{
+        width: 50%;
+    }
+
+    input[type="password"]{
+        width: 50%;
+    }
+
+    input[type="button"]{
+
+        width: 30%;
+    }
+    
+    .btn{
+        padding: 15px;
+        font-size: 13px;
+    
+    }
+
+    /* Create account CSS starts here */
+
+.container h1{
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+/* Create account CSS ends here */
+
+/* Sign up with social media CSS starts here */
+.container p{
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+/* Sign up with social media CSS ends here */
+
+/* CSS icon placement starts here */
+
+.email{
+    position: absolute;
+    left: 25%;
+}
+
+.mobile{
+    position: absolute;
+    left: 25%;
+}
+
+.user{
+    position: absolute;
+    left: 25%;
+}
+
+.social a{
+    margin: 10px;
+    
+ }
+}
+
+@media only screen and (max-width:549px) {
+
+    .container{
 
         width: 100%;
-        font-size: 17px;
-        
+
+    }
+
+    .social a{
+
+        margin: 10px;
+
      }
+    
+    input[type="email"]{
+        width: 50%;
+    }
 
-     .container-form h1{
+    input[type="text"]{
+        width: 50%;
+    }
 
+    input[type="user"]{
+        width: 50%;
+    }
+
+    input[type="tel"]{
+        width: 50%;
+    }
+
+    input[type="password"]{
+        width: 50%;
+    }
+
+    input[type="button"]{
+        width: 30%;
+    }
+    
+    .btn{
+        padding: 15px;
+        font-size: 13px;
+    
+    }
+
+/* CSS icon placement starts here */
+
+.email{
+    position: absolute;
+    left: 25%;
+}
+
+.mobile{
+    position: absolute;
+    left: 25%;
+}
+
+.user{
+    position: absolute;
+    left: 25%;
+}
+
+.social a{
+    margin: 10px;
+    
+ }
+
+}
+
+@media only screen and (max-width:400px) {
+
+    .container{
         width: 100%;
-        font-size: 20px;
-        
+
+    }
+
+    .social a{
+        margin: 10px;
+
      }
+    
+    input[type="email"]{
+        width: 50%;
+    }
+
+    input[type="text"]{
+        width: 50%;
+    }
+
+    input[type="user"]{
+        width: 50%;
+    }
+
+    input[type="tel"]{
+        width: 50%;
+    }
+
+    input[type="password"]{
+        width: 50%;
+    }
+
+    input[type="button"]{
+        width: 30%;
+    }
+    
+    .btn{
+        padding: 15px;
+        font-size: 13px;
+    
+    }
+
+/* CSS icon placement starts here */
+
+.email{
+    position: absolute;
+    left: 25%;
+}
+
+.mobile{
+    position: absolute;
+    left: 25%;
+}
+
+.user{
+    position: absolute;
+    left: 25%;
+}
+
+.social a{
+    margin: 5px;
+    
+ }
+
 }
