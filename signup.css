@@ -1,0 +1,309 @@
+body{
+
+    background-color: rgb(23, 22, 22);
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.container-form{
+
+    width: 50%;
+    background-color: lightgray;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.container-form p{
+
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-bottom: 40px;
+   
+}
+
+.container-form h1{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+ }
+
+/* Username input CSS starts here */
+
+input[type=text]{
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid lightseagreen;
+    text-indent: 30px;
+}
+
+input[type=text]:focus{
+
+    border-radius: 25px;
+    border: 1px solid lightseagreen;
+    outline: none;
+
+}
+
+.user{
+
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    font-size: 25px;
+
+}
+
+/* Username input CSS endss here */
+
+/* Email input CSS starts here */
+
+input[type=email]{
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid lightseagreen;
+    text-indent: 35px;
+}
+
+input[type=email]:focus{
+
+    border-radius: 25px;
+    border: 1px solid lightseagreen;
+    outline: none;
+   
+}
+
+.email-form{
+
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    font-size: 25px;
+
+}
+
+.email{
+
+    position: relative;
+    margin-top: 25px;
+    
+}
+
+/* Email CSS ends here */
+
+/* Form-user CSS starts here */
+
+.form-user{
+
+    position: relative;
+   
+}
+
+/* Form-user CSS ends here */
+
+/* Password CSS starts here */
+
+input[type=password]{
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid lightseagreen;
+    text-indent: 10px;
+}
+
+input[type=text]:focus{
+
+    border-radius: 25px;
+    border: 1px solid lightseagreen;
+    outline: none;
+
+}
+
+.password{
+
+    margin-top: 25px;
+}
+
+/* Password CSS endss here */
+
+/* Mobile number CSS starts here */
+
+input[type=tel]{
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid lightseagreen;
+    text-indent: 30px;
+}
+
+input[type=tel]:focus{
+
+    border-radius: 25px;
+    border: 1px solid lightseagreen;
+    outline: none;
+
+}
+
+.user{
+
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    font-size: 25px;
+
+}
+
+.form-class{
+
+    position: relative;
+    margin-top: 25px;
+    
+}
+
+/* Mobile number input CSS endss here */
+
+/* Register Button CSS starts here */
+
+input[type=submit]{
+
+    width: 53%;
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 40px;
+    background-color: green;
+    color: aliceblue;
+    border: none;
+    font-size: 15px;
+
+}
+
+.password{
+
+    margin-top: 25px;
+}
+
+/* register Button CSS ends here */
+
+
+/* Placeholder CSS starts here */
+
+::placeholder{
+
+    font-size: 15px;
+    color: lightslategray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Placeholder CSS ends here */
+
+.form-main{
+
+    padding-bottom: 80px;
+}
+
+/* Or divider CSS starts here */
+
+.divider{
+
+    display: flex;
+    align-items: center;
+    margin: 25px;
+}
+
+.divider::before, .divider::after{
+
+    content: "";
+    padding: 1px;
+    background-color: rgb(105, 103, 103);
+    flex: 1;
+    margin: 20px 10px;
+
+}
+
+.divider-bg{
+
+    background-color: rgb(158, 157, 157);
+    padding: 15px 15px;
+    border-radius: 50px;
+    border: 2px solid gray;
+}
+
+/* Social Media Signup buttons CSS starts here */
+
+.facebook-button{
+
+    background-color: #3b5998;
+    color: aliceblue;
+    padding: 10px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.twitter-button{
+
+    background-color: #1DA1F2;
+    color: aliceblue;
+    padding: 10px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.google-button{
+
+    background-color: #DB4437;
+    color: aliceblue;
+    padding: 10px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+@media (max-width:816px){
+
+    .container-form{
+        width: 100%;
+    }
+
+    .facebook-button{
+        padding: 8px 40px;
+        margin: 0px 3px;
+    }
+    
+    .twitter-button{
+        padding: 8px 40px;
+        margin: 0px 3px;
+    }
+    
+    .google-button{
+        padding: 8px 40px;
+        margin: 0px 3px;
+    }
+
+    .container-form p{
+
+        width: 100%;
+        font-size: 17px;
+        
+     }
+
+     .container-form h1{
+
+        width: 100%;
+        font-size: 20px;
+        
+     }
+}
